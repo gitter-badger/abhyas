@@ -7,8 +7,9 @@ Data Structures
 #. Continuous deployment of documentation via GitHub Webhooks and ReadTheDocs
 #. Mastering Sphinx
 
+
 .. |docs| image:: https://readthedocs.org/projects/data-structures-abhyasi/badge/?version=latest
     :alt: Documentation Status
     :scale: 100%
-    :target: https://readthedocs.org/projects/data-structures-abhyasi
+    :target: https://readthedocs.org/projects/data-structures-abhyasi/?badge=latest
 
