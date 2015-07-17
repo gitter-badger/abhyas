@@ -8,8 +8,8 @@ Data Structures
 #. Mastering Sphinx
 
 
-.. |docs| image:: https://readthedocs.org/projects/data-structures-abhyasi/badge/?version=latest
+.. |docs| image:: https://readthedocs.org/projects/data-structures-abhyasi/badge/
     :alt: Documentation Status
     :scale: 100%
-    :target: https://readthedocs.org/projects/data-structures-abhyasi/?badge=latest
+    :target: https://readthedocs.org/projects/data-structures-abhyasi/badge/
 
