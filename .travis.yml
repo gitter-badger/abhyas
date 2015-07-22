@@ -1,0 +1,24 @@
+language: cpp
+compiler:
+- gcc
+- clang
+before_install:
+- echo $LANG
+- echo $LC_ALL
+- rvm use $RVM --install --binary --fuzzy
+- gem update --system
+- gem --version
+before_script:
+- travis_retry bundle
+script: sh ./.travis_build.sh
+branches:
+  only:
+  - master
+notifications:
+  email: false
+  slack:
+    secure: jNHCB/bnnIJtrIrbba6os8W7x1yKzWUpwqW/UYkCHJ7Qc/yq/5TznU+QAvC53Uhv6ka7DIOEFlZHnrS5xEQnQY0xWd2oluw88sBUEfhbkUZnU/C9XrJ0tmDcDGSE7DwKfGUWf49r5ierTZwDfPVdc952ml+1W5R3mvxLM2XA0STdVzrWEJdsM2jWbfdr4+g8lAXy6njgPTihxJ5KUx/EJCsbM1H9u6gJ9I1TpAt/85MFkp36hdIKWZ9+FqhdHkV7nM0Q1a+ADPthF7318SaM8TbPGag0LeJgyzuYK1kZlLxXslAkj7Fs6wscrb9+3Ar6GsMkC+ylEWJiaP9miCuv6/7HpnnWYPi+8AROmv5XpyslFzIrmgrU3iur/NWzFb3FQvghJl7mmkDFvSU8DS4H8Z/jLxydXFo1QdpqeVB58hkodtOt6uzYP+/ONdBnoBHCbVJuFjTEqnw7jULEDLI+JQfR8F4RvGGd81NvLYleqIfdl20mihEsaIAUMAQfFYDY0SXcvU9OWb7TPpRUDIDMrryCeSDxfs6EzvUpWzGtAQOJng0B4ZHmvSsDu/zWvXwIHypDUgbPVRfy+wBux+DICyeO1A8DrOPFtrKG3YxU6eCe5VM0K9jMq3ovGED76qnV2J6R2ef9shIZbi9kaHjQdJmInpyTY9u7u2VO25KHSjc=
+env:
+- RVM=2.0.0 LANG="en_US.UTF-8"
+os:
+- linux
