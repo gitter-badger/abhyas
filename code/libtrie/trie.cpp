@@ -1,11 +1,12 @@
 #include <cstdio>
 #include <cassert>
+#include <string>
 #include <vector>
 
+// Apple includes strlen within string Linux requires cstring. 
+// On Apple <cstring> is an Objective-C code. Hence the guard.
 #ifdef __posix
     #include <cstring>
-#elif __APPLE__
-    #include <string>
 #endif
 
 #include "trie.h"
