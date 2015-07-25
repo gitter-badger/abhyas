@@ -14,7 +14,7 @@ Graphs
     * Depth-First
     * Breadth-First
 
-.. literalinclude:: /code/libgraph/graph.h
+.. literalinclude:: /../code/libgraph/graph.h
     :language: c
     :emphasize-lines: 17-18
     :linenos:
@@ -24,7 +24,7 @@ Other Examples
 
 Since Pythagoras, we know that :math:`a^2 + b^2 = c^2`.
 
-.. literalinclude:: /code/libgraph/graph.c
+.. literalinclude:: /../code/libgraph/graph.c
     :language: c
     :lines: 4-15
 

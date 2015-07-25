@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Data Structures @ Abhyasi documentation build configuration file, created by
+# Abhyasi documentation build configuration file, created by
 # sphinx-quickstart on Sun Jul 12 22:34:51 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -51,7 +51,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Data Structures @ Abhyasi'
+project = u'Abhyas'
 copyright = u'2015, Abhyasi'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -75,7 +75,7 @@ release = '1.0'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = []
+exclude_patterns = ['_build']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -185,7 +185,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'DataStructuresAbhyasidoc'
+htmlhelp_basename = 'AbhyasiDoc'
 
 
 # -- Options for LaTeX output ---------------------------------------------
@@ -205,7 +205,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'DataStructuresAbhyasi.tex', u'Data Structures @ Abhyasi Documentation',
+  ('index', 'Abhyasi.tex', u'Abhyasi Documentation',
    u'Abhyasi', 'manual'),
 ]
 
@@ -235,7 +235,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'datastructuresabhyasi', u'Data Structures @ Abhyasi Documentation',
+    ('index', 'abhyasi', u'Abhyasi Documentation',
      [u'Abhyasi'], 1)
 ]
 
@@ -249,8 +249,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'DataStructuresAbhyasi', u'Data Structures @ Abhyasi Documentation',
-   u'Abhyasi', 'DataStructuresAbhyasi', 'One line description of project.',
+  ('index', 'Abhyasi', u'Abhyasi Documentation',
+   u'Abhyasi', 'Abhyasi', 'One line description of project.',
    'Miscellaneous'),
 ]
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-make html
-sphinx-autobuild . _build/html/
+sphinx-build -b html docs _build
+sphinx-autobuild . _build/
 
 

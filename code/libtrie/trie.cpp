@@ -1,9 +1,16 @@
 #include <cstdio>
 #include <cassert>
-#include <string>
 #include <vector>
 
+#ifdef __posix
+    #include <cstring>
+#elif __APPLE__
+    #include <string>
+#endif
+
 #include "trie.h"
+
+using namespace std;
 
 enum type {WORD, PREFIX};
 
