@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 2.8)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
 
-project(abhyas)
+PROJECT(abhyas)
 
-enable_testing()
+ENABLE_TESTING()
 
-add_subdirectory(code)
+ADD_SUBDIRECTORY(code)
